@@ -1,0 +1,16 @@
+[project]
+authors = ["Paul Jarvis <paul@prgoressivbuilding.com.au>"]
+channels = ["freecad/label/dev", "conda-forge"]
+description = "This workbench is for creating building elements for construction"
+name = "freecad.buildQ_module"
+platforms = ["osx-arm64", "linux-aarch64", "linux-64", "win-64", "osx-64"]
+version = "0.0.1"
+
+[pypi-dependencies]
+freecad_buildQ_module = { path = ".", editable = true }
+
+[tasks]
+test = "python tests/tests.py"
+
+[dependencies]
+freecad = ">=1.0.0,<2"
