@@ -22,6 +22,8 @@ class buildQ_class(Gui.Workbench):
     Icon = os.path.join(ICONPATH, "cool.svg")
     toolbox = []
 
+# added line
+
     def GetClassName(self):
         return "Gui::PythonWorkbench"
 
