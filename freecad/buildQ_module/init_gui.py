@@ -17,7 +17,7 @@ class buildQ_class(Gui.Workbench):
     """
     class which gets initiated at startup of the gui
     """
-    MenuText = translate("Workbench", "buildQ")
+    MenuText = translate("Bench", "buildQ")
     ToolTip = translate("Workbench", "Tools to make building elements and quantify materials")
     Icon = os.path.join(ICONPATH, "cool.svg")
     toolbox = []
