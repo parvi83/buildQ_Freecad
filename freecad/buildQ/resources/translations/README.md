@@ -1,7 +1,7 @@
 # About translating buildQ_module Workbench
 
 > [!NOTE]
-> All commands **must** be run in `./freecad/buildQ_module/resources/translations/` directory.
+> All commands **must** be run in `./freecad/buildQ/resources/translations/` directory.
 
 > [!IMPORTANT]
 > If you want to update/release the files you need to have installed
@@ -92,7 +92,7 @@ This will update the `.qm` file for your language (Japanese in this case).
 
 ## Sending translations
 
-Now you can contribute your translated `.ts` file to **buildQ_module** repository,
+Now you can contribute your translated `.ts` file to **buildQ** repository,
 also include the `.qm` file.
 
 <https://foobar.com/me/coolWB>

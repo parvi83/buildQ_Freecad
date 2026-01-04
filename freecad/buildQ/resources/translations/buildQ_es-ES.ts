@@ -5,8 +5,8 @@
     <name>Log</name>
     <message>
         <location filename="../../init_gui.py" line="30"/>
-        <source>Switching to buildQ_module</source>
-        <translation>Cambiando a entorno de trabajo buildQ_module</translation>
+        <source>Switching to buildQ</source>
+        <translation>Cambiando a entorno de trabajo buildQ</translation>
     </message>
     <message>
         <location filename="../../init_gui.py" line="32"/>
