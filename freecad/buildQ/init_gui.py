@@ -1,7 +1,7 @@
 import os
 import FreeCADGui as Gui
 import FreeCAD as App
-from freecad. buildQ import my_numpy_function
+from freecad.buildQ import my_numpy_function
 
 translate=App.Qt.translate
 QT_TRANSLATE_NOOP=App.Qt.QT_TRANSLATE_NOOP
@@ -17,10 +17,12 @@ class buildQWorkbench(Gui.Workbench):
     """
     class which gets initiated at startup of the gui
     """
+    from freecad.buildQ import commands
+    
     MenuText = translate("Workbench", "buildQ")
     ToolTip = translate("Workbench", "Tools to make building elements and quantify materials")
     Icon = os.path.join(ICONPATH, "cool.svg")
-    toolbox = []
+    toolbox = [commands.DrawLineCommand, commands.CreateWallCommand, commands.CreateSubFloorCommand]
 
     def GetClassName(self):
         return "Gui::PythonWorkbench"

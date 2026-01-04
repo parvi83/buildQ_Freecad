@@ -4,8 +4,8 @@ set(Namespace_SRCS
         freecad/buildQ/my_numpy_function.py
         freecad/buildQ/version.py
         freecad/buildQ/resources/cool.svg
-        freecad/buildQ/resources/translations/buildQ_module_es-ES.qm
-        freecad/buildQ/resources/translations/buildQ_module_es-ES.ts
+        freecad/buildQ/resources/translations/buildQ_es-ES.qm
+        freecad/buildQ/resources/translations/buildQ_es-ES.ts
 )
 
 SOURCE_GROUP("" FILES ${Namespace_SRCS})
