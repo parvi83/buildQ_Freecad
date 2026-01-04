@@ -1,1 +1,1 @@
-recursive-include freecad/buildQ_module/resources *
+recursive-include freecad/buildQ/resources *

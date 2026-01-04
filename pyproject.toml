@@ -9,7 +9,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "freecad.buildQ_module"
+name = "freecad.buildQ"
 dynamic = ["version"]
 description = "This workbench is for creating building elements for construction"
 readme = "README.md"
@@ -24,8 +24,8 @@ dependencies = ["'numpy',"]
 source = "https://foobar.com/me/coolWB"
 
 [tool.setuptools]
-packages = ["freecad", "freecad.buildQ_module"]
+packages = ["freecad", "freecad.buildQ"]
 include-package-data = true
 
 [tool.setuptools.dynamic]
-version = {attr = "freecad.buildQ_module.version.__version__"}
+version = {attr = "freecad.buildQ.version.__version__"}

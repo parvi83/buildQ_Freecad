@@ -1,7 +1,7 @@
 import os
 import FreeCADGui as Gui
 import FreeCAD as App
-from freecad. buildQ_module import my_numpy_function
+from freecad. buildQ import my_numpy_function
 
 translate=App.Qt.translate
 QT_TRANSLATE_NOOP=App.Qt.QT_TRANSLATE_NOOP
@@ -13,7 +13,7 @@ TRANSLATIONSPATH = os.path.join(os.path.dirname(__file__), "resources", "transla
 Gui.addLanguagePath(TRANSLATIONSPATH)
 Gui.updateLocale()
 
-class buildQ_class(Gui.Workbench):
+class buildQWorkbench(Gui.Workbench):
     """
     class which gets initiated at startup of the gui
     """
@@ -59,4 +59,4 @@ class buildQ_class(Gui.Workbench):
             "Workbench buildQ_module de-activated.") + "\n")
 
 
-Gui.addWorkbench(buildQ_class())
+Gui.addWorkbench(buildQWorkbench())

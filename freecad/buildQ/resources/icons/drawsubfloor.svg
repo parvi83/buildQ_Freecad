@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="icon_drawsubfloor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     showguides="false"
+     inkscape:lockguides="false"
+     inkscape:zoom="11.976621"
+     inkscape:cx="14.695297"
+     inkscape:cy="27.762421"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="48"
+       height="48"
+       id="page1"
+       margin="6"
+       bleed="0"
+       inkscape:label="icon_drawWall" />
+    <inkscape:grid
+       id="grid9"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+    <sodipodi:guide
+       position="16,42"
+       orientation="1,0"
+       id="guide17"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="32,38"
+       orientation="1,0"
+       id="guide18"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="8,32"
+       orientation="0,-1"
+       id="guide19"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="4,16"
+       orientation="0,-1"
+       id="guide20"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="10.812486,7.297911"
+       orientation="-0.25901644,0.96587291"
+       id="guide83"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="6,11.660905"
+       orientation="-0.4226182,-0.90630782"
+       id="guide102"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-22.927976 : 10.691491 : 0"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="24.436205 : 6.5476614 : 0"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective20" />
+  </defs>
+  <g
+     inkscape:label="icon_drawsubfloor"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#00cc00;fill-opacity:1;stroke:#4b4080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 7,36.805403 V 25.336046 L 30.876299,18.93841 V 30.407768 L 7,36.805403"
+       id="path101" />
+    <path
+       style="fill:#00cc00;fill-opacity:1;stroke:#4b4080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 12,39.13694 V 27.667583 L 35.876299,21.269947 V 32.739305 L 12,39.13694"
+       id="path105" />
+    <path
+       style="fill:#00cc00;fill-opacity:1;stroke:#4b4080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17,41.468478 V 29.999121 L 40.876299,23.601485 V 35.070843 L 17,41.468478"
+       id="path106" />
+    <path
+       style="fill:#00cc00;fill-opacity:1;stroke:#4b4080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="M 6,24.869738 18.100361,30.512228 41.97666,24.114593 29.876299,18.472102 Z"
+       id="path102" />
+  </g>
+</svg>
