@@ -1,1 +1,5 @@
 test_macros/
+
+# Byte-code files
+*.pyc
+__pycache__/
