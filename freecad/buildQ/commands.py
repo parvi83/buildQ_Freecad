@@ -1,17 +1,19 @@
+import os
 import FreeCAD as App
 import FreeCADGui as Gui
 
 translate=App.Qt.translate
 QT_TRANSLATE_NOOP=App.Qt.QT_TRANSLATE_NOOP
+ICONPATH = os.path.join(os.path.dirname(__file__), "resources/icons")
 
 class DrawLineCommand:
     """Draw a simple line object"""
 
     def GetResources(self):
         return {
-            "Pixmap": App.getUserAppDataDir() + "/resources/icons/draw_wall.svg",
+            "Pixmap": os.path.join(ICONPATH, "draw_wall.svg"),
             "MenuText": "Draw Line",
-            "ToolTip": "Create a basic wall assembly"
+            "ToolTip": "Create a basic wall assembly",
         }
 
     def IsActive(self):
@@ -30,9 +32,9 @@ class CreateWallCommand:
 
     def GetResources(self):
         return {
-            "Pixmap": App.getUserAppDataDir() + "/resources/icons/draw_wall.svg",
+            "Pixmap": os.path.join(ICONPATH, "draw_wall.svg"),
             "MenuText": "Create Wall",
-            "ToolTip": "Create a wall assembly"
+            "ToolTip": "Create a wall assembly",
         }
 
     def IsActive(self):
@@ -54,9 +56,9 @@ class CreateSubFloorCommand:
 
     def GetResources(self):
         return {
-            "Pixmap": App.getUserAppDataDir() + "/resources/icons/draw_subfloor.svg",
+            "Pixmap": os.path.join(ICONPATH, "draw_subfloor.svg"),
             "MenuText": "Create SubFloor",
-            "ToolTip": "Create a subfloor assembly"
+            "ToolTip": "Create a subfloor assembly",
         }
 
     def IsActive(self):

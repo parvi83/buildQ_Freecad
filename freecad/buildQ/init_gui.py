@@ -1,7 +1,6 @@
 import os
 import FreeCADGui as Gui
 import FreeCAD as App
-from freecad.buildQ import my_numpy_function
 
 translate=App.Qt.translate
 QT_TRANSLATE_NOOP=App.Qt.QT_TRANSLATE_NOOP
@@ -17,12 +16,10 @@ class buildQWorkbench(Gui.Workbench):
     """
     class which gets initiated at startup of the gui
     """
-    from freecad.buildQ import commands
-    
+   
     MenuText = translate("Workbench", "buildQ")
     ToolTip = translate("Workbench", "Tools to make building elements and quantify materials")
     Icon = os.path.join(ICONPATH, "cool.svg")
-    toolbox = [commands.DrawLineCommand, commands.CreateWallCommand, commands.CreateSubFloorCommand]
 
     def GetClassName(self):
         return "Gui::PythonWorkbench"
@@ -33,16 +30,17 @@ class buildQWorkbench(Gui.Workbench):
         here is the place to import all the commands
         """
 
+        import freecad.buildQ.commands # noqa: F401
+
+        self.commands = ["DrawLine", "CreateWall", "CreateSubFloor"]
+
         App.Console.PrintMessage(translate(
             "Log",
-            "Switching to buildQ_module") + "\n")
-        App.Console.PrintMessage(translate(
-            "Log",
-            "Run a numpy function:") + "sqrt(100) = {}\n".format(my_numpy_function.my_foo(100)))
+            "Switching to buildQ") + "\n")
 
         # NOTE: Context for this commands must be "Workbench"
-        self.appendToolbar(QT_TRANSLATE_NOOP("Workbench", "Tools"), self.toolbox)
-        self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "Tools"), self.toolbox)
+        self.appendToolbar(QT_TRANSLATE_NOOP("Workbench", "Tools"), self.commands)
+        self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "Tools"), self.commands)
 
     def Activated(self):
         '''

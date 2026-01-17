@@ -14,5 +14,4 @@ setup(name='freecad.buildQ',
       maintainer_email="paul@prgoressivbuilding.com.au",
       url="",
       description="This workbench is for creating building elements for construction",
-      install_requires=['numpy',],
       include_package_data=True)
