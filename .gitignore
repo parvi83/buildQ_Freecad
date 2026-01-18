@@ -1,5 +1,12 @@
+# Test code as macros. To be deleted once implemented into main code
 test_macros/
 
 # Byte-code files
 *.pyc
 __pycache__/
+
+# Doxygen output
+html/
+latex/
+man/
+xml/
